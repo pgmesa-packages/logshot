@@ -20,6 +20,13 @@ logging.start_log_capture()
 # -- Logger
 logger = logging.Logger(module_name=__name__)
 logger.level = logging.DEBUG
+...
+logger.info("Opening example path...")
+try:
+    with open('C:\\Users\\example\\of\\logshot\\package', 'r') as file:
+        ...
+except Exception as err:
+    logger.error(err); exit(1)
 ```
 
 ### File Output
