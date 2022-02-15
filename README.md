@@ -2,7 +2,7 @@
 
 A simplified log tool with some custom features that allows to manage loggers across multiple python files, with a root logger that is easy to enable or disable whenever it is necessary from any file.
 
-### Instalation
+### Installation
 ```
 pip install logshot
 ```
