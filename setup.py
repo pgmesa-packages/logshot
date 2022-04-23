@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='logshot',  
-    version='0.0.4',
+    version='0.0.5',
     author="Pablo García Mesa",
     author_email="pgmesa.sm@gmail.com",
     description="Simplified log tool that allows an easy manageable global logger",
@@ -19,7 +19,7 @@ setuptools.setup(
     python_requires=">=3.7",
     classifiers=[
         "Programming Language :: Python :: 3.7",
-        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
  )
